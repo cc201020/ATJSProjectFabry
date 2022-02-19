@@ -13,7 +13,12 @@ export default {
 </script>
 
 <template>
-  <h1>The great guesser game!</h1>
+<router-link to="/home">Homepage</router-link>
+<router-link to="/calculator">Calculator</router-link>
+<router-link to="/pokedex">Pokedex</router-link>
+  <h1>Card Guesser Game</h1>
+  <p>You can find the rules </p>
+  <router-link to="/rules">here</router-link>
 
   <button @click="getDeck">Get a new Deck</button>
 
