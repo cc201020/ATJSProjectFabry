@@ -3,6 +3,8 @@ p {
     text-align: center;
     color: white;
     font-size: 15px;
+    background-color: #9b111e;
+    border-radius: 30px; 
 }
 h4 {
     color: white;

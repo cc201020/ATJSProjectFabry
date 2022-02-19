@@ -34,9 +34,11 @@ export default {
 </script>
 
 <template>
+<nav>
 <router-link to="/home">Homepage</router-link>
 <router-link to="/calculator">Calculator</router-link>
  <router-link to="/cardgame">Card Game</router-link>
+ </nav>
   <div>
     <h1>Pokedex</h1>
 

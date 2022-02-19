@@ -1,7 +1,9 @@
 <template>
+<nav>
 <router-link to="/home">Homepage</router-link>
 <router-link to="/pokedex">Pokedex</router-link>
  <router-link to="/cardgame">Card Game</router-link>
+ </nav>
   <div>
     <h1>Super Calc App</h1>
 

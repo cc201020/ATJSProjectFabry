@@ -11,12 +11,8 @@
 <p> Feel free to look around but there isn't much here yet!</p>
 </template>
 <style>
-p {
-       background-color: #9b111e;
-       border-radius: 30px; 
-}
 h3 {
-    background-color:#2eca07; 
+    background-color:#2eca07;
     border-radius: 10px; 
 }
 h4 {

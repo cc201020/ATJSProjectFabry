@@ -13,15 +13,17 @@ export default {
 </script>
 
 <template>
+<nav>
 <router-link to="/home">Homepage</router-link>
 <router-link to="/calculator">Calculator</router-link>
 <router-link to="/pokedex">Pokedex</router-link>
+</nav>
   <h1>Card Guesser Game</h1>
-  <p>You can find the rules </p>
-  <router-link to="/rules">here</router-link>
-
+  <router-link to="/rules"> You can find the rules here</router-link>
+  <br>
+  <br>
+  <br>
   <button @click="getDeck">Get a new Deck</button>
-
   <div v-if="guesser.deckId">
     <button @click="setNextGuess('red')">Guess Red</button>
     <br />
@@ -31,14 +33,14 @@ export default {
 
     <h1>Guesses: {{ guesser.guesses }}</h1>
     <h1>Points: {{ guesser.points }}</h1>
-    <h2>Your next guess is: {{ guesser.nextGuess }}</h2>
+    <h2 id="next">Your next guess is: {{ guesser.nextGuess }}</h2>
 
     <div v-for="(card, index) in guesser.cards" :key="index">
       {{ card.value }} of {{ card.symbol }}
       <img :src="card.image" :alt="card.value" />
     </div>
   </div>
-  <div v-else>Please draw a new deck!</div>
+  <div v-else id="info">Please draw a new deck!</div>
 </template>
 
 <style>
@@ -48,5 +50,32 @@ img {
 body {
   background-size: cover;
   background-repeat: no-repeat;
+}
+p {
+  color: rgba(21, 255, 33, 0.932);
+}
+button {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 10px;
+  border-color: black;
+  border: 15px;
+  background-color: rgba(21, 255, 33, 0.932);
+  margin-left: 85px;
+  margin-bottom: 25px;
+}
+button:hover {
+  color: black;
+  background-color: lightblue;
+}
+#info {
+  color: white;
+  font-size: 25px;
+}
+
+#next {
+  color: white;
+  font-size: 25px;
 }
 </style>
