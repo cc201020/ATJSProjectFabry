@@ -12,7 +12,8 @@
     <br />
     <h3>Current number</h3>
     <span>{{ currentNumber }}</span>
-
+    <br />
+    <h5>_</h5>
     <br />
     <!-- buttons generated -->
     <button
@@ -24,12 +25,10 @@
     </button>
 
     <br />
-
     <button v-on:click="addNumber">+</button>
     <button v-on:click="subtractNumber">-</button>
     <button v-on:click="multiplyNumber">*</button>
     <button v-on:click="divideNumber">/</button>
-
     <br />
     <!-- v-on: === @ -->
     <button @click="showResult">=</button>
@@ -109,5 +108,18 @@ export default {
 body {
   background-size: cover;
   background-repeat: no-repeat;
+}
+button {
+  margin: 40px;
+  width: 75px;
+  height: 55px;
+  background-color: #13a3cf95;
+}
+button:hover {
+  background-color: lightblue;
+}
+span {
+  color: white;
+  font-size: 25px;
 }
 </style>
