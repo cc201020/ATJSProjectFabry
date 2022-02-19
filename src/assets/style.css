@@ -24,17 +24,25 @@ h1 {
 }
 body {
     background-image: url(https://wallpaperaccess.com/full/3001769.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: initial;
+    background-repeat: repeat;
 }
 a {
-    color: whitesmoke;
+    color: rgba(21, 255, 33, 0.932);
     font-size: 20px;
-    padding: 45px;
+    border: 0;
+    margin: 0;
+    padding-left: 90px;
+    text-decoration: none;
+}
+a:hover{
+    color: #d11a2c;
 }
 nav{
     position: fixed;
     top: 0px;
-    width: 100vw;
-    background-color: grey;
+    width: 33vw;
+    border-bottom-left-radius: 25px ;
+    border-bottom-right-radius: 25px ;
+    background-color: rgba(100, 100, 100, 0.795);
 }

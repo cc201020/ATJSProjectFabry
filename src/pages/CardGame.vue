@@ -45,4 +45,8 @@ export default {
 img {
   width: 100px;
 }
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 </style>

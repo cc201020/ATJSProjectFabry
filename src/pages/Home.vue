@@ -27,4 +27,8 @@ h1 {
     background-color:#13a3cf95;
     border-radius: 5px;
 }
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 </style>

@@ -103,3 +103,9 @@ export default {
   },
 };
 </script>
+<style>
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+</style>

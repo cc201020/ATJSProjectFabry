@@ -4,3 +4,9 @@
 <router-link to="/pokedex">Pokedex</router-link>
  <router-link to="/cardgame">Card Game</router-link>
 </template>
+<style>
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+</style>
