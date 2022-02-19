@@ -60,12 +60,7 @@ img{
   display:block;
   margin-left: auto;
   margin-right: auto;
-  resolution: initial;
-  height: 250px;
-  width: 250px;
   background-color: #13a3cf95;
-  border-color: black;
-  border: 5px;
   border-radius: 25px;
 }
 </style>
