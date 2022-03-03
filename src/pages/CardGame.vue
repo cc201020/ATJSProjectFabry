@@ -21,6 +21,7 @@ export default {
   <h1>Card Guesser Game</h1>
   <router-link to="/rules"> You can find the rules here</router-link>
   <br>
+  <router-link to="/othergame"> Card Game has moved, click here to go to the new version</router-link>
   <br>
   <br>
   <button @click="getDeck">Get a new Deck</button>
