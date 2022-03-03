@@ -5,6 +5,7 @@ import Pokedex from '../pages/Pokedex.vue';
 import CardGame from '../pages/CardGame.vue';
 import Calculator from '../pages/Calculator.vue';
 import Rules from '../pages/Rules.vue';
+import Othergame from '../pages/OtherGame.vue'
 
 const routes = [
   { path: '/', component: Home},
@@ -13,6 +14,7 @@ const routes = [
   { path: '/cardgame', component: CardGame },
   { path: '/calculator', component: Calculator },
   { path: '/rules', component: Rules },
+  { path: '/othergame', component: Othergame },
 ];
 
 // Here we create our own Vue Router Instance
