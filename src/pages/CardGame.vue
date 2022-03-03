@@ -31,6 +31,7 @@ export default {
     <button @click="setNextGuess('black')">Guess Black</button>
     <br />
     <button v-if="guesser.nextGuess" @click="drawCard">Draw a card</button>
+    <button v-if="guesser.nextGuess" @click="drawCard">Draw a card</button>
 
     <h1>Guesses: {{ guesser.guesses }}</h1>
     <h1>Points: {{ guesser.points }}</h1>
